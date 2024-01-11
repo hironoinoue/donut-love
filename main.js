@@ -11,7 +11,7 @@ const canvas = document.querySelector("#webgl");
 const scene = new THREE.Scene();
 //bg -image
 const textureLoader = new THREE.TextureLoader();
-const bgTexture = textureLoader.load("images/bg.jpg");
+const bgTexture = textureLoader.load("public/bg.jpg");
 scene.background = bgTexture;
 //sizes
 const sizes = {
