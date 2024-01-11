@@ -45,7 +45,7 @@ scene.add(pointLight);
 let donut = null;
 const gltfLoader = new GLTFLoader();
 gltfLoader.load(
-  './assets/donut/scene.gltf', 
+  'public/scene.gltf', 
   (gltf) => {
     donut = gltf.scene;
 
